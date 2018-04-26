@@ -1,0 +1,15 @@
+{
+  "name": "flask-lambda",
+  "version": "1.0.0",
+  "description": "flask lambda",
+  "main": "index.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-python-requirements": "^4.0.2",
+    "serverless-wsgi": "^1.4.8"
+  }
+}
