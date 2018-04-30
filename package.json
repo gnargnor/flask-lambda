@@ -4,6 +4,7 @@
   "description": "flask lambda",
   "main": "index.py",
   "scripts": {
+    "dev": "sls offline start --port 4500",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "devDependencies": {
     "serverless-python-requirements": "^4.0.2",
     "serverless-wsgi": "^1.4.8"
+  },
+  "dependencies": {
+    "serverless-offline": "^3.20.3"
   }
 }
